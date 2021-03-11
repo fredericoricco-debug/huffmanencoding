@@ -75,9 +75,9 @@ def save_file(temp_binary):
         return "You entered a character that can't be a file name, try again."
     else:
         filename += ".bin"
-        path = "/Users/admin/OneDrive - University of Exeter/CS/Data Structures and Algorithms/CA/compressed/" + filename
+        path = "source/" + filename
         try:
-            with open(path, 'wb') as file:
+            with open(filename, 'wb') as file:
                 temp_binary.tofile(file)
             return path, filename
         except:
