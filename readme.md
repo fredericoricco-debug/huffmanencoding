@@ -7,6 +7,6 @@ This program uses the bitarray and json python libraries, which can be installed
 
 You must install these to use the program.
 
-The project is available *[here] (https://github.com/fredericoricco-debug/huffmanencoding)*
+The project is available *[here](https://github.com/fredericoricco-debug/huffmanencoding)*
 
 Thank you!
